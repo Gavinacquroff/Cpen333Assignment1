@@ -153,10 +153,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="assignment1.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="GSC.cpp" />
+    <ClCompile Include="CPUMP.cpp" />
     <ClCompile Include="rt.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CPUMP.h" />
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="rt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
